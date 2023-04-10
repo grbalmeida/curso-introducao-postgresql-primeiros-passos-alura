@@ -102,13 +102,13 @@ SELECT * FROM aluno WHERE idade < 100;
 SELECT * FROM aluno WHERE idade BETWEEN 10 AND 20;
 ```
 
-### Filtrando alunos que tenham de 35 a 40 anos (trás o Diogo que tem 35 anos)
+### Filtrando alunos que tenham de 35 a 40 anos (traz o Diogo que tem 35 anos)
 
 ```sql
 SELECT * FROM aluno WHERE idade BETWEEN 35 AND 40;
 ```
 
-### Filtrando alunos que tenham de 10 a 35 anos (trás o Diogo que tem 35 anos)
+### Filtrando alunos que tenham de 10 a 35 anos (traz o Diogo que tem 35 anos)
 
 ```sql
 SELECT * FROM aluno WHERE idade BETWEEN 10 AND 35;
